@@ -3,12 +3,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class Dog;
+
 @interface Person : NSObject <NSCopying>
-{
-    NSString *_firstName;
-    NSString *_lastName;
-    int _age;
-}
 
 + (instancetype)personWithFirstName:(NSString *)firstName
                            lastName:(NSString *)lastName;
@@ -16,15 +13,11 @@
 - (instancetype)initWithFirstName:(NSString *)firstName
                          lastName:(NSString *)lastName;
 
-- (NSString *)firstName;
-- (void)setFirstName:(NSString *)newValue;
+@property (strong, nonatomic) Dog *dog;
 
-- (NSString *)lastName;
-- (void)setLastName:(NSString *)newValue;
-
-- (NSString *)fullName;
-
-- (int)age;
-- (void)setAge:(int)newValue;
+@property (copy, nonatomic) NSString *firstName;
+@property (copy, nonatomic) NSString *lastName;
+@property (readonly, nonatomic) NSString *fullName;
+@property (assign, nonatomic) int age;
 
 @end

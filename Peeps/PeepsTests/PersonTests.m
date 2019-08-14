@@ -39,4 +39,15 @@
     NSLog(@"Name is %@", fredsClone);
 }
 
+- (void)testManWithDog {
+    Person *fred = [Person personWithFirstName:@"Fred"
+                                      lastName:@"Smith"];
+    
+    Dog *rover = [[Dog alloc] init];
+    
+    fred.dog = rover;
+    
+    NSLog(@"Name is %@", fred);
+}
+
 @end

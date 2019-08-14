@@ -10,9 +10,9 @@
 @implementation ClassClusterTests
 
 - (void)testIdDataType {
-    id bob = [[NSString alloc] init];
+//   id bob = [[NSString alloc] init];
     
-    [bob setFirstName:@"Bob"];
+//    [bob setFirstName:@"Bob"];
 }
 
 - (void)testStringClassCluster {

@@ -13,6 +13,8 @@
 		B4EB1F60230346B000664899 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EB1F5E230346B000664899 /* Person.h */; };
 		B4EB1F61230346B000664899 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F5F230346B000664899 /* Person.m */; };
 		B4EB1F63230370BF00664899 /* ClassClusterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F62230370BF00664899 /* ClassClusterTests.m */; };
+		B4EB1F662303954200664899 /* Dog.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EB1F642303954200664899 /* Dog.h */; };
+		B4EB1F672303954200664899 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F652303954200664899 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		B4EB1F5E230346B000664899 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		B4EB1F5F230346B000664899 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B4EB1F62230370BF00664899 /* ClassClusterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassClusterTests.m; sourceTree = "<group>"; };
+		B4EB1F642303954200664899 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		B4EB1F652303954200664899 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				B4EB1F47230344A900664899 /* Peeps.h */,
 				B4EB1F5E230346B000664899 /* Person.h */,
 				B4EB1F5F230346B000664899 /* Person.m */,
+				B4EB1F642303954200664899 /* Dog.h */,
+				B4EB1F652303954200664899 /* Dog.m */,
 				B4EB1F48230344A900664899 /* Info.plist */,
 			);
 			path = Peeps;
@@ -102,6 +108,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4EB1F662303954200664899 /* Dog.h in Headers */,
 				B4EB1F55230344A900664899 /* Peeps.h in Headers */,
 				B4EB1F60230346B000664899 /* Person.h in Headers */,
 			);
@@ -203,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4EB1F672303954200664899 /* Dog.m in Sources */,
 				B4EB1F61230346B000664899 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

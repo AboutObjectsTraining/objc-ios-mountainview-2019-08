@@ -20,33 +20,11 @@
     return self;
 }
 
-- (NSString *)firstName {
-    return _firstName;
-}
-- (void)setFirstName:(NSString *)newValue {
-    _firstName = [newValue copy];
-}
-
-- (NSString *)lastName {
-    return _lastName;
-}
-- (void)setLastName:(NSString *)newValue {
-    _lastName = [newValue copy];
-}
-
-- (NSString *)fullName {
+- (NSString *)fullName {    
     return [NSString stringWithFormat:@"%@ %@", [self firstName], [self lastName]];
 }
 
-- (int)age {
-    return _age;
-}
-- (void)setAge:(int)newValue {
-    _age = newValue;
-}
-
-- (NSString *)description
-{
+- (NSString *)description {
     return [NSString stringWithFormat:@"%@", [self fullName]];
 }
 
@@ -59,4 +37,3 @@
 }
 
 @end
-
