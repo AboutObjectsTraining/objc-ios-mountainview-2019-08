@@ -30,4 +30,13 @@
     NSLog(@"Name is %@", fred);
 }
 
+- (void)testCopyPerson {
+    Person *fred = [Person personWithFirstName:@"Fred"
+                                      lastName:@"Smith"];
+    NSLog(@"Name is %@", fred);
+    
+    Person *fredsClone = [fred copy];
+    NSLog(@"Name is %@", fredsClone);
+}
+
 @end

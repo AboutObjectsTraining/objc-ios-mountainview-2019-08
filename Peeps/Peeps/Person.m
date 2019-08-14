@@ -50,5 +50,13 @@
     return [NSString stringWithFormat:@"%@", [self fullName]];
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    Person *newPerson = [[Person allocWithZone:zone] init];
+    newPerson->_firstName = self->_firstName;
+    newPerson->_lastName = self->_lastName;
+    newPerson->_age = self->_age;
+    return newPerson;
+}
+
 @end
 

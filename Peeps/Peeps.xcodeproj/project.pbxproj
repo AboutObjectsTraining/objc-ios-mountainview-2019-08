@@ -12,6 +12,7 @@
 		B4EB1F55230344A900664899 /* Peeps.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EB1F47230344A900664899 /* Peeps.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4EB1F60230346B000664899 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EB1F5E230346B000664899 /* Person.h */; };
 		B4EB1F61230346B000664899 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F5F230346B000664899 /* Person.m */; };
+		B4EB1F63230370BF00664899 /* ClassClusterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F62230370BF00664899 /* ClassClusterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		B4EB1F54230344A900664899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4EB1F5E230346B000664899 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		B4EB1F5F230346B000664899 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B4EB1F62230370BF00664899 /* ClassClusterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassClusterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B4EB1F52230344A900664899 /* PersonTests.m */,
+				B4EB1F62230370BF00664899 /* ClassClusterTests.m */,
 				B4EB1F54230344A900664899 /* Info.plist */,
 			);
 			path = PeepsTests;
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4EB1F53230344A900664899 /* PersonTests.m in Sources */,
+				B4EB1F63230370BF00664899 /* ClassClusterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
