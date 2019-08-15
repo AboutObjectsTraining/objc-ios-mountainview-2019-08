@@ -87,12 +87,20 @@ CGPoint CLNTextOrigin = { 12, 7 };
 }
 
 - (void)animateBounceWithDuration:(NSTimeInterval)duration size:(CGSize)size {
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:duration];
-    
-    self.transform = CGAffineTransformMakeTranslation(size.width, size.height);
-    
-    [UIView commitAnimations];
+    typeof(self) __weak weakSelf = self;
+    [UIView animateWithDuration:duration
+                     animations:^{
+                         typeof(self) __strong strongSelf = weakSelf;
+                         [UIView setAnimationRepeatAutoreverses:YES];
+                         [UIView setAnimationRepeatCount:4];
+                         CGAffineTransform translation = CGAffineTransformMakeTranslation(size.width, size.height);
+                         strongSelf.transform = CGAffineTransformRotate(translation, M_PI_2);
+                     }
+                     completion:^(BOOL finished) {
+                         typeof(self) __strong strongSelf = weakSelf;
+                         strongSelf.transform = CGAffineTransformIdentity;
+                     }
+     ];
 }
 
 // MARK: - UIResponder methods
