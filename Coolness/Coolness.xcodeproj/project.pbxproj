@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4EB1F7A23047DFF00664899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F7923047DFF00664899 /* AppDelegate.m */; };
+		B4EB1F7A23047DFF00664899 /* CLNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F7923047DFF00664899 /* CLNAppDelegate.m */; };
 		B4EB1F8223047E0000664899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4EB1F8123047E0000664899 /* Assets.xcassets */; };
 		B4EB1F8523047E0000664899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4EB1F8323047E0000664899 /* LaunchScreen.storyboard */; };
 		B4EB1F8823047E0000664899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F8723047E0000664899 /* main.m */; };
 		B4EB1F9023048A3800664899 /* CLNCoolController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F8F23048A3800664899 /* CLNCoolController.m */; };
+		B4EB1F932304AD5C00664899 /* CLNCoolViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1F922304AD5C00664899 /* CLNCoolViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4EB1F7523047DFF00664899 /* Coolness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coolness.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4EB1F7823047DFF00664899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B4EB1F7923047DFF00664899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4EB1F7823047DFF00664899 /* CLNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLNAppDelegate.h; sourceTree = "<group>"; };
+		B4EB1F7923047DFF00664899 /* CLNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNAppDelegate.m; sourceTree = "<group>"; };
 		B4EB1F8123047E0000664899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4EB1F8423047E0000664899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4EB1F8623047E0000664899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4EB1F8723047E0000664899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4EB1F8E23048A3800664899 /* CLNCoolController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLNCoolController.h; sourceTree = "<group>"; };
 		B4EB1F8F23048A3800664899 /* CLNCoolController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNCoolController.m; sourceTree = "<group>"; };
+		B4EB1F912304AD5C00664899 /* CLNCoolViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLNCoolViewCell.h; sourceTree = "<group>"; };
+		B4EB1F922304AD5C00664899 /* CLNCoolViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNCoolViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +59,10 @@
 		B4EB1F7723047DFF00664899 /* Coolness */ = {
 			isa = PBXGroup;
 			children = (
-				B4EB1F7823047DFF00664899 /* AppDelegate.h */,
-				B4EB1F7923047DFF00664899 /* AppDelegate.m */,
+				B4EB1F7823047DFF00664899 /* CLNAppDelegate.h */,
+				B4EB1F7923047DFF00664899 /* CLNAppDelegate.m */,
+				B4EB1F912304AD5C00664899 /* CLNCoolViewCell.h */,
+				B4EB1F922304AD5C00664899 /* CLNCoolViewCell.m */,
 				B4EB1F8E23048A3800664899 /* CLNCoolController.h */,
 				B4EB1F8F23048A3800664899 /* CLNCoolController.m */,
 				B4EB1F8123047E0000664899 /* Assets.xcassets */,
@@ -138,8 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4EB1F9023048A3800664899 /* CLNCoolController.m in Sources */,
+				B4EB1F932304AD5C00664899 /* CLNCoolViewCell.m in Sources */,
 				B4EB1F8823047E0000664899 /* main.m in Sources */,
-				B4EB1F7A23047DFF00664899 /* AppDelegate.m in Sources */,
+				B4EB1F7A23047DFF00664899 /* CLNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

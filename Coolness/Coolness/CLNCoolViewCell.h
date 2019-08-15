@@ -3,9 +3,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
+@interface CLNCoolViewCell : UIView
+
+@property (nonatomic, copy) NSString *text;
 
 @end
 
+NS_ASSUME_NONNULL_END
