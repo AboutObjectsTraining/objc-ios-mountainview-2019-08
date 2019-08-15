@@ -4,7 +4,7 @@
 #import "CLNCoolController.h"
 #import "CLNCoolViewCell.h"
 
-@interface CLNCoolController ()
+@interface CLNCoolController () <UITextFieldDelegate>
 @property (nonatomic, strong) UIView *contentView;
 @property (nonatomic, strong) UITextField *textField;
 @end
@@ -16,6 +16,11 @@
     CLNCoolViewCell *newCell = [[CLNCoolViewCell alloc] init];
     [self.contentView addSubview:newCell];
     newCell.text = self.textField.text;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
 }
 
 - (void)loadView {
@@ -30,6 +35,8 @@
     UIView *accessoryView = [[UIView alloc] initWithFrame:accessoryRect];
     self.contentView = [[UIView alloc] initWithFrame:contentRect];
     
+    self.contentView.clipsToBounds = YES;
+    
     accessoryView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.75];
     self.contentView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.5];
     
@@ -42,6 +49,8 @@
     [accessoryView addSubview:self.textField];
     self.textField.borderStyle = UITextBorderStyleRoundedRect;
     self.textField.placeholder = @"Enter a label";
+    
+    self.textField.delegate = self;
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     [accessoryView addSubview:button];
