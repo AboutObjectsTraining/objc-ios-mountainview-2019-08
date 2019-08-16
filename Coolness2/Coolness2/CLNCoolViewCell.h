@@ -5,9 +5,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+IB_DESIGNABLE
 @interface CLNCoolViewCell : UIView
 
-@property (nonatomic, copy) NSString *text;
+@property (nonatomic, copy) IBInspectable NSString *text;
 
 @end
 

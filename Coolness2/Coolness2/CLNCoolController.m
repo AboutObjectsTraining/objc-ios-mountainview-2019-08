@@ -5,13 +5,13 @@
 #import "CLNCoolViewCell.h"
 
 @interface CLNCoolController () <UITextFieldDelegate>
-@property (nonatomic, strong) UIView *contentView;
-@property (nonatomic, strong) UITextField *textField;
+@property (nonatomic, strong) IBOutlet UIView *contentView;
+@property (nonatomic, strong) IBOutlet UITextField *textField;
 @end
 
 @implementation CLNCoolController
 
-- (void)addCell {
+- (IBAction)addCell {
     NSLog(@"In %s, text is %@", __func__, self.textField.text);
     CLNCoolViewCell *newCell = [[CLNCoolViewCell alloc] init];
     [self.contentView addSubview:newCell];
@@ -21,6 +21,15 @@
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
     return YES;
+}
+
+- (void)XXXloadView1 {
+    [NSBundle.mainBundle loadNibNamed:self.nibName owner:self options:nil];
+}
+
+- (void)XXXloadView2 {
+    NSArray *topLevelObjs = [NSBundle.mainBundle loadNibNamed:self.nibName owner:nil options:nil];
+    self.view = topLevelObjs.firstObject;
 }
 
 - (void)XXXloadView {

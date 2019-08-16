@@ -9,24 +9,38 @@ CGPoint CLNTextOrigin = { 12, 7 };
 @interface CLNCoolViewCell ()
 @property (nonatomic, getter=isHighlighted) BOOL highlighted;
 @property (class, readonly) NSDictionary<NSAttributedStringKey, id> *textAttributes;
+@property (nonatomic) IBInspectable CGFloat cornerRadius;
 @end
 
 @implementation CLNCoolViewCell
 
+- (CGFloat)cornerRadius { return self.layer.cornerRadius; }
+- (void)setCornerRadius:(CGFloat)cornerRadius { self.layer.cornerRadius = cornerRadius; }
+
 - (instancetype)initWithFrame:(CGRect)frame {
     if (!(self = [super initWithFrame:frame])) return nil;
     
-    self.layer.cornerRadius = 10;
-    self.layer.masksToBounds = YES;
-    self.layer.borderWidth = 3;
-    self.layer.borderColor = UIColor.whiteColor.CGColor;
-    
+    [self configureLayer];
     [self configureGestureRecognizers];
     
     return self;
 }
 
-// FIXME: Override all designated initializers!
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (!(self = [super initWithCoder:aDecoder])) return nil;
+    
+    [self configureLayer];
+    [self configureGestureRecognizers];
+    
+    return self;
+}
+
+- (void)configureLayer {
+    self.layer.cornerRadius = 10;
+    self.layer.masksToBounds = YES;
+    self.layer.borderWidth = 3;
+    self.layer.borderColor = UIColor.whiteColor.CGColor;
+}
 
 - (void)configureGestureRecognizers {
     UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self
