@@ -14,6 +14,7 @@
 		B4EB1FD923061CE700664899 /* CLNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1FD623061CE700664899 /* CLNAppDelegate.m */; };
 		B4EB1FDA23061CE700664899 /* CLNCoolViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1FD723061CE700664899 /* CLNCoolViewCell.m */; };
 		B4EB1FDC23061DC300664899 /* CoolStuff.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4EB1FDB23061DC300664899 /* CoolStuff.xib */; };
+		B4EB1FDF23071D2500664899 /* CLNCoolView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1FDE23071D2500664899 /* CLNCoolView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B4EB1FD623061CE700664899 /* CLNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNAppDelegate.m; sourceTree = "<group>"; };
 		B4EB1FD723061CE700664899 /* CLNCoolViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNCoolViewCell.m; sourceTree = "<group>"; };
 		B4EB1FDB23061DC300664899 /* CoolStuff.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoolStuff.xib; sourceTree = "<group>"; };
+		B4EB1FDD23071D2500664899 /* CLNCoolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLNCoolView.h; sourceTree = "<group>"; };
+		B4EB1FDE23071D2500664899 /* CLNCoolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNCoolView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				B4EB1FD423061CE700664899 /* CLNAppDelegate.h */,
 				B4EB1FD623061CE700664899 /* CLNAppDelegate.m */,
+				B4EB1FDD23071D2500664899 /* CLNCoolView.h */,
+				B4EB1FDE23071D2500664899 /* CLNCoolView.m */,
 				B4EB1FD323061CE700664899 /* CLNCoolController.h */,
 				B4EB1FD523061CE700664899 /* CLNCoolController.m */,
 				B4EB1FD223061CE700664899 /* CLNCoolViewCell.h */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4EB1FDF23071D2500664899 /* CLNCoolView.m in Sources */,
 				B4EB1FD923061CE700664899 /* CLNAppDelegate.m in Sources */,
 				B4EB1FDA23061CE700664899 /* CLNCoolViewCell.m in Sources */,
 				B4EB1FD823061CE700664899 /* CLNCoolController.m in Sources */,
