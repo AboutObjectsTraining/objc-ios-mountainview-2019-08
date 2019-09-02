@@ -5,7 +5,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RELReadingListController : UITableViewController
+@interface UIStoryboardSegue (RELAdditions)
+
+@property (readonly, nonatomic) id rel_destinationViewController;
 
 @end
 

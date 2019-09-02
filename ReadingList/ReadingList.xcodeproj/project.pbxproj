@@ -7,50 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4EB1FEE2307268500664899 /* RELAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1FED2307268500664899 /* RELAppDelegate.m */; };
-		B4EB1FF42307268500664899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4EB1FF22307268500664899 /* Main.storyboard */; };
-		B4EB1FF62307268600664899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4EB1FF52307268600664899 /* Assets.xcassets */; };
-		B4EB1FF92307268600664899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4EB1FF72307268600664899 /* LaunchScreen.storyboard */; };
-		B4EB1FFC2307268600664899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB1FFB2307268600664899 /* main.m */; };
-		B4EB20062307268600664899 /* ReadingListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB20052307268600664899 /* ReadingListTests.m */; };
-		B4EB2012230746C600664899 /* RELReadingListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB2011230746C600664899 /* RELReadingListController.m */; };
+		B4C5F09F22B40E97005C9B08 /* RELAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F09E22B40E97005C9B08 /* RELAppDelegate.m */; };
+		B4C5F0A522B40E97005C9B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C5F0A322B40E97005C9B08 /* Main.storyboard */; };
+		B4C5F0A722B40E98005C9B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C5F0A622B40E98005C9B08 /* Assets.xcassets */; };
+		B4C5F0AA22B40E98005C9B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C5F0A822B40E98005C9B08 /* LaunchScreen.storyboard */; };
+		B4C5F0AD22B40E98005C9B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0AC22B40E98005C9B08 /* main.m */; };
+		B4C5F0B722B40E98005C9B08 /* ReadingListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0B622B40E98005C9B08 /* ReadingListTests.m */; };
+		B4C5F0C322B43239005C9B08 /* RELReadingListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0C222B43239005C9B08 /* RELReadingListController.m */; };
+		B4C5F0C622B43475005C9B08 /* RELViewBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0C522B43475005C9B08 /* RELViewBookController.m */; };
+		B4C5F0D522B44403005C9B08 /* RLMBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0C722B44402005C9B08 /* RLMBook.m */; };
+		B4C5F0D622B44403005C9B08 /* RLMAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0CA22B44402005C9B08 /* RLMAuthor.m */; };
+		B4C5F0D722B44403005C9B08 /* RLMModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0CB22B44402005C9B08 /* RLMModelObject.m */; };
+		B4C5F0D822B44403005C9B08 /* RLMStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0D022B44402005C9B08 /* RLMStoreController.m */; };
+		B4C5F0D922B44403005C9B08 /* ReadingList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4C5F0D122B44403005C9B08 /* ReadingList.plist */; };
+		B4C5F0DA22B44403005C9B08 /* NSArray+RLMObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0D322B44403005C9B08 /* NSArray+RLMObjectMapping.m */; };
+		B4C5F0DB22B44403005C9B08 /* RLMReadingList.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0D422B44403005C9B08 /* RLMReadingList.m */; };
+		B4C5F0DF22B44A02005C9B08 /* RELDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0DE22B44A02005C9B08 /* RELDataSource.m */; };
+		B4C5F0E222B4598D005C9B08 /* RELEditBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0E122B4598D005C9B08 /* RELEditBookController.m */; };
+		B4C5F0E522B45B86005C9B08 /* UIStoryboardSegue+RELAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0E422B45B86005C9B08 /* UIStoryboardSegue+RELAdditions.m */; };
+		B4C5F0E722B4642B005C9B08 /* ViewAndEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C5F0E622B4642B005C9B08 /* ViewAndEdit.storyboard */; };
+		B4C5F0EA22B466AE005C9B08 /* RELAddBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C5F0E922B466AE005C9B08 /* RELAddBookController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B4EB20022307268600664899 /* PBXContainerItemProxy */ = {
+		B4C5F0B322B40E98005C9B08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B4EB1FE12307268500664899 /* Project object */;
+			containerPortal = B4C5F09222B40E97005C9B08 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4EB1FE82307268500664899;
+			remoteGlobalIDString = B4C5F09922B40E97005C9B08;
 			remoteInfo = ReadingList;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B4EB1FE92307268500664899 /* ReadingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4EB1FEC2307268500664899 /* RELAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELAppDelegate.h; sourceTree = "<group>"; };
-		B4EB1FED2307268500664899 /* RELAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELAppDelegate.m; sourceTree = "<group>"; };
-		B4EB1FF32307268500664899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B4EB1FF52307268600664899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B4EB1FF82307268600664899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B4EB1FFA2307268600664899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4EB1FFB2307268600664899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B4EB20012307268600664899 /* ReadingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4EB20052307268600664899 /* ReadingListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadingListTests.m; sourceTree = "<group>"; };
-		B4EB20072307268600664899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4EB2010230746C600664899 /* RELReadingListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELReadingListController.h; sourceTree = "<group>"; };
-		B4EB2011230746C600664899 /* RELReadingListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELReadingListController.m; sourceTree = "<group>"; };
+		B4C5F09A22B40E97005C9B08 /* ReadingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C5F09D22B40E97005C9B08 /* RELAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELAppDelegate.h; sourceTree = "<group>"; };
+		B4C5F09E22B40E97005C9B08 /* RELAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELAppDelegate.m; sourceTree = "<group>"; };
+		B4C5F0A422B40E97005C9B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4C5F0A622B40E98005C9B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4C5F0A922B40E98005C9B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4C5F0AB22B40E98005C9B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C5F0AC22B40E98005C9B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4C5F0B222B40E98005C9B08 /* ReadingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C5F0B622B40E98005C9B08 /* ReadingListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadingListTests.m; sourceTree = "<group>"; };
+		B4C5F0B822B40E98005C9B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C5F0C122B43239005C9B08 /* RELReadingListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELReadingListController.h; sourceTree = "<group>"; };
+		B4C5F0C222B43239005C9B08 /* RELReadingListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELReadingListController.m; sourceTree = "<group>"; };
+		B4C5F0C422B43475005C9B08 /* RELViewBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELViewBookController.h; sourceTree = "<group>"; };
+		B4C5F0C522B43475005C9B08 /* RELViewBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELViewBookController.m; sourceTree = "<group>"; };
+		B4C5F0C722B44402005C9B08 /* RLMBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMBook.m; sourceTree = "<group>"; };
+		B4C5F0C822B44402005C9B08 /* RLMAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMAuthor.h; sourceTree = "<group>"; };
+		B4C5F0C922B44402005C9B08 /* RLMStoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMStoreController.h; sourceTree = "<group>"; };
+		B4C5F0CA22B44402005C9B08 /* RLMAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMAuthor.m; sourceTree = "<group>"; };
+		B4C5F0CB22B44402005C9B08 /* RLMModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMModelObject.m; sourceTree = "<group>"; };
+		B4C5F0CC22B44402005C9B08 /* RLMReadingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMReadingList.h; sourceTree = "<group>"; };
+		B4C5F0CD22B44402005C9B08 /* NSArray+RLMObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RLMObjectMapping.h"; sourceTree = "<group>"; };
+		B4C5F0CE22B44402005C9B08 /* ReadingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListModel.h; sourceTree = "<group>"; };
+		B4C5F0CF22B44402005C9B08 /* RLMModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMModelObject.h; sourceTree = "<group>"; };
+		B4C5F0D022B44402005C9B08 /* RLMStoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMStoreController.m; sourceTree = "<group>"; };
+		B4C5F0D122B44403005C9B08 /* ReadingList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ReadingList.plist; sourceTree = "<group>"; };
+		B4C5F0D222B44403005C9B08 /* RLMBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMBook.h; sourceTree = "<group>"; };
+		B4C5F0D322B44403005C9B08 /* NSArray+RLMObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RLMObjectMapping.m"; sourceTree = "<group>"; };
+		B4C5F0D422B44403005C9B08 /* RLMReadingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMReadingList.m; sourceTree = "<group>"; };
+		B4C5F0DD22B44A02005C9B08 /* RELDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELDataSource.h; sourceTree = "<group>"; };
+		B4C5F0DE22B44A02005C9B08 /* RELDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELDataSource.m; sourceTree = "<group>"; };
+		B4C5F0E022B4598D005C9B08 /* RELEditBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELEditBookController.h; sourceTree = "<group>"; };
+		B4C5F0E122B4598D005C9B08 /* RELEditBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELEditBookController.m; sourceTree = "<group>"; };
+		B4C5F0E322B45B86005C9B08 /* UIStoryboardSegue+RELAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+RELAdditions.h"; sourceTree = "<group>"; };
+		B4C5F0E422B45B86005C9B08 /* UIStoryboardSegue+RELAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+RELAdditions.m"; sourceTree = "<group>"; };
+		B4C5F0E622B4642B005C9B08 /* ViewAndEdit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewAndEdit.storyboard; sourceTree = "<group>"; };
+		B4C5F0E822B466AE005C9B08 /* RELAddBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RELAddBookController.h; sourceTree = "<group>"; };
+		B4C5F0E922B466AE005C9B08 /* RELAddBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RELAddBookController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4EB1FE62307268500664899 /* Frameworks */ = {
+		B4C5F09722B40E97005C9B08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4EB1FFE2307268600664899 /* Frameworks */ = {
+		B4C5F0AF22B40E98005C9B08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,59 +98,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B4EB1FE02307268500664899 = {
+		B4C5F09122B40E97005C9B08 = {
 			isa = PBXGroup;
 			children = (
-				B4EB1FEB2307268500664899 /* ReadingList */,
-				B4EB20042307268600664899 /* ReadingListTests */,
-				B4EB1FEA2307268500664899 /* Products */,
+				B4C5F0DC22B4443C005C9B08 /* Model */,
+				B4C5F09C22B40E97005C9B08 /* ReadingList */,
+				B4C5F0B522B40E98005C9B08 /* ReadingListTests */,
+				B4C5F09B22B40E97005C9B08 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B4EB1FEA2307268500664899 /* Products */ = {
+		B4C5F09B22B40E97005C9B08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4EB1FE92307268500664899 /* ReadingList.app */,
-				B4EB20012307268600664899 /* ReadingListTests.xctest */,
+				B4C5F09A22B40E97005C9B08 /* ReadingList.app */,
+				B4C5F0B222B40E98005C9B08 /* ReadingListTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4EB1FEB2307268500664899 /* ReadingList */ = {
+		B4C5F09C22B40E97005C9B08 /* ReadingList */ = {
 			isa = PBXGroup;
 			children = (
-				B4EB1FEC2307268500664899 /* RELAppDelegate.h */,
-				B4EB1FED2307268500664899 /* RELAppDelegate.m */,
-				B4EB2010230746C600664899 /* RELReadingListController.h */,
-				B4EB2011230746C600664899 /* RELReadingListController.m */,
-				B4EB1FF22307268500664899 /* Main.storyboard */,
-				B4EB1FF52307268600664899 /* Assets.xcassets */,
-				B4EB1FF72307268600664899 /* LaunchScreen.storyboard */,
-				B4EB1FFA2307268600664899 /* Info.plist */,
-				B4EB1FFB2307268600664899 /* main.m */,
+				B4C5F09D22B40E97005C9B08 /* RELAppDelegate.h */,
+				B4C5F09E22B40E97005C9B08 /* RELAppDelegate.m */,
+				B4C5F0C122B43239005C9B08 /* RELReadingListController.h */,
+				B4C5F0C222B43239005C9B08 /* RELReadingListController.m */,
+				B4C5F0DD22B44A02005C9B08 /* RELDataSource.h */,
+				B4C5F0DE22B44A02005C9B08 /* RELDataSource.m */,
+				B4C5F0C422B43475005C9B08 /* RELViewBookController.h */,
+				B4C5F0C522B43475005C9B08 /* RELViewBookController.m */,
+				B4C5F0E022B4598D005C9B08 /* RELEditBookController.h */,
+				B4C5F0E122B4598D005C9B08 /* RELEditBookController.m */,
+				B4C5F0E822B466AE005C9B08 /* RELAddBookController.h */,
+				B4C5F0E922B466AE005C9B08 /* RELAddBookController.m */,
+				B4C5F0E322B45B86005C9B08 /* UIStoryboardSegue+RELAdditions.h */,
+				B4C5F0E422B45B86005C9B08 /* UIStoryboardSegue+RELAdditions.m */,
+				B4C5F0E622B4642B005C9B08 /* ViewAndEdit.storyboard */,
+				B4C5F0A322B40E97005C9B08 /* Main.storyboard */,
+				B4C5F0A622B40E98005C9B08 /* Assets.xcassets */,
+				B4C5F0A822B40E98005C9B08 /* LaunchScreen.storyboard */,
+				B4C5F0AB22B40E98005C9B08 /* Info.plist */,
+				B4C5F0AC22B40E98005C9B08 /* main.m */,
 			);
 			path = ReadingList;
 			sourceTree = "<group>";
 		};
-		B4EB20042307268600664899 /* ReadingListTests */ = {
+		B4C5F0B522B40E98005C9B08 /* ReadingListTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4EB20052307268600664899 /* ReadingListTests.m */,
-				B4EB20072307268600664899 /* Info.plist */,
+				B4C5F0B622B40E98005C9B08 /* ReadingListTests.m */,
+				B4C5F0B822B40E98005C9B08 /* Info.plist */,
 			);
 			path = ReadingListTests;
+			sourceTree = "<group>";
+		};
+		B4C5F0DC22B4443C005C9B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4C5F0CD22B44402005C9B08 /* NSArray+RLMObjectMapping.h */,
+				B4C5F0D322B44403005C9B08 /* NSArray+RLMObjectMapping.m */,
+				B4C5F0D122B44403005C9B08 /* ReadingList.plist */,
+				B4C5F0CE22B44402005C9B08 /* ReadingListModel.h */,
+				B4C5F0C822B44402005C9B08 /* RLMAuthor.h */,
+				B4C5F0CA22B44402005C9B08 /* RLMAuthor.m */,
+				B4C5F0D222B44403005C9B08 /* RLMBook.h */,
+				B4C5F0C722B44402005C9B08 /* RLMBook.m */,
+				B4C5F0CF22B44402005C9B08 /* RLMModelObject.h */,
+				B4C5F0CB22B44402005C9B08 /* RLMModelObject.m */,
+				B4C5F0CC22B44402005C9B08 /* RLMReadingList.h */,
+				B4C5F0D422B44403005C9B08 /* RLMReadingList.m */,
+				B4C5F0C922B44402005C9B08 /* RLMStoreController.h */,
+				B4C5F0D022B44402005C9B08 /* RLMStoreController.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4EB1FE82307268500664899 /* ReadingList */ = {
+		B4C5F09922B40E97005C9B08 /* ReadingList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4EB200A2307268600664899 /* Build configuration list for PBXNativeTarget "ReadingList" */;
+			buildConfigurationList = B4C5F0BB22B40E98005C9B08 /* Build configuration list for PBXNativeTarget "ReadingList" */;
 			buildPhases = (
-				B4EB1FE52307268500664899 /* Sources */,
-				B4EB1FE62307268500664899 /* Frameworks */,
-				B4EB1FE72307268500664899 /* Resources */,
+				B4C5F09622B40E97005C9B08 /* Sources */,
+				B4C5F09722B40E97005C9B08 /* Frameworks */,
+				B4C5F09822B40E97005C9B08 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,46 +191,46 @@
 			);
 			name = ReadingList;
 			productName = ReadingList;
-			productReference = B4EB1FE92307268500664899 /* ReadingList.app */;
+			productReference = B4C5F09A22B40E97005C9B08 /* ReadingList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4EB20002307268600664899 /* ReadingListTests */ = {
+		B4C5F0B122B40E98005C9B08 /* ReadingListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4EB200D2307268600664899 /* Build configuration list for PBXNativeTarget "ReadingListTests" */;
+			buildConfigurationList = B4C5F0BE22B40E98005C9B08 /* Build configuration list for PBXNativeTarget "ReadingListTests" */;
 			buildPhases = (
-				B4EB1FFD2307268600664899 /* Sources */,
-				B4EB1FFE2307268600664899 /* Frameworks */,
-				B4EB1FFF2307268600664899 /* Resources */,
+				B4C5F0AE22B40E98005C9B08 /* Sources */,
+				B4C5F0AF22B40E98005C9B08 /* Frameworks */,
+				B4C5F0B022B40E98005C9B08 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B4EB20032307268600664899 /* PBXTargetDependency */,
+				B4C5F0B422B40E98005C9B08 /* PBXTargetDependency */,
 			);
 			name = ReadingListTests;
 			productName = ReadingListTests;
-			productReference = B4EB20012307268600664899 /* ReadingListTests.xctest */;
+			productReference = B4C5F0B222B40E98005C9B08 /* ReadingListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4EB1FE12307268500664899 /* Project object */ = {
+		B4C5F09222B40E97005C9B08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "About Objects";
 				TargetAttributes = {
-					B4EB1FE82307268500664899 = {
+					B4C5F09922B40E97005C9B08 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					B4EB20002307268600664899 = {
+					B4C5F0B122B40E98005C9B08 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = B4EB1FE82307268500664899;
+						TestTargetID = B4C5F09922B40E97005C9B08;
 					};
 				};
 			};
-			buildConfigurationList = B4EB1FE42307268500664899 /* Build configuration list for PBXProject "ReadingList" */;
+			buildConfigurationList = B4C5F09522B40E97005C9B08 /* Build configuration list for PBXProject "ReadingList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,29 +238,31 @@
 				en,
 				Base,
 			);
-			mainGroup = B4EB1FE02307268500664899;
-			productRefGroup = B4EB1FEA2307268500664899 /* Products */;
+			mainGroup = B4C5F09122B40E97005C9B08;
+			productRefGroup = B4C5F09B22B40E97005C9B08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4EB1FE82307268500664899 /* ReadingList */,
-				B4EB20002307268600664899 /* ReadingListTests */,
+				B4C5F09922B40E97005C9B08 /* ReadingList */,
+				B4C5F0B122B40E98005C9B08 /* ReadingListTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B4EB1FE72307268500664899 /* Resources */ = {
+		B4C5F09822B40E97005C9B08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EB1FF92307268600664899 /* LaunchScreen.storyboard in Resources */,
-				B4EB1FF62307268600664899 /* Assets.xcassets in Resources */,
-				B4EB1FF42307268500664899 /* Main.storyboard in Resources */,
+				B4C5F0AA22B40E98005C9B08 /* LaunchScreen.storyboard in Resources */,
+				B4C5F0E722B4642B005C9B08 /* ViewAndEdit.storyboard in Resources */,
+				B4C5F0D922B44403005C9B08 /* ReadingList.plist in Resources */,
+				B4C5F0A722B40E98005C9B08 /* Assets.xcassets in Resources */,
+				B4C5F0A522B40E97005C9B08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4EB1FFF2307268600664899 /* Resources */ = {
+		B4C5F0B022B40E98005C9B08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,47 +272,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4EB1FE52307268500664899 /* Sources */ = {
+		B4C5F09622B40E97005C9B08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EB1FFC2307268600664899 /* main.m in Sources */,
-				B4EB1FEE2307268500664899 /* RELAppDelegate.m in Sources */,
-				B4EB2012230746C600664899 /* RELReadingListController.m in Sources */,
+				B4C5F0D622B44403005C9B08 /* RLMAuthor.m in Sources */,
+				B4C5F0DF22B44A02005C9B08 /* RELDataSource.m in Sources */,
+				B4C5F0E222B4598D005C9B08 /* RELEditBookController.m in Sources */,
+				B4C5F0AD22B40E98005C9B08 /* main.m in Sources */,
+				B4C5F0E522B45B86005C9B08 /* UIStoryboardSegue+RELAdditions.m in Sources */,
+				B4C5F0C322B43239005C9B08 /* RELReadingListController.m in Sources */,
+				B4C5F0EA22B466AE005C9B08 /* RELAddBookController.m in Sources */,
+				B4C5F0D822B44403005C9B08 /* RLMStoreController.m in Sources */,
+				B4C5F0DA22B44403005C9B08 /* NSArray+RLMObjectMapping.m in Sources */,
+				B4C5F0D722B44403005C9B08 /* RLMModelObject.m in Sources */,
+				B4C5F0D522B44403005C9B08 /* RLMBook.m in Sources */,
+				B4C5F09F22B40E97005C9B08 /* RELAppDelegate.m in Sources */,
+				B4C5F0DB22B44403005C9B08 /* RLMReadingList.m in Sources */,
+				B4C5F0C622B43475005C9B08 /* RELViewBookController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4EB1FFD2307268600664899 /* Sources */ = {
+		B4C5F0AE22B40E98005C9B08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EB20062307268600664899 /* ReadingListTests.m in Sources */,
+				B4C5F0B722B40E98005C9B08 /* ReadingListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B4EB20032307268600664899 /* PBXTargetDependency */ = {
+		B4C5F0B422B40E98005C9B08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4EB1FE82307268500664899 /* ReadingList */;
-			targetProxy = B4EB20022307268600664899 /* PBXContainerItemProxy */;
+			target = B4C5F09922B40E97005C9B08 /* ReadingList */;
+			targetProxy = B4C5F0B322B40E98005C9B08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B4EB1FF22307268500664899 /* Main.storyboard */ = {
+		B4C5F0A322B40E97005C9B08 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B4EB1FF32307268500664899 /* Base */,
+				B4C5F0A422B40E97005C9B08 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B4EB1FF72307268600664899 /* LaunchScreen.storyboard */ = {
+		B4C5F0A822B40E98005C9B08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B4EB1FF82307268600664899 /* Base */,
+				B4C5F0A922B40E98005C9B08 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -247,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B4EB20082307268600664899 /* Debug */ = {
+		B4C5F0B922B40E98005C9B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		B4EB20092307268600664899 /* Release */ = {
+		B4C5F0BA22B40E98005C9B08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,11 +443,12 @@
 			};
 			name = Release;
 		};
-		B4EB200B2307268600664899 /* Debug */ = {
+		B4C5F0BC22B40E98005C9B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J7LD9SB6Q;
 				INFOPLIST_FILE = ReadingList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,11 +460,12 @@
 			};
 			name = Debug;
 		};
-		B4EB200C2307268600664899 /* Release */ = {
+		B4C5F0BD22B40E98005C9B08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J7LD9SB6Q;
 				INFOPLIST_FILE = ReadingList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -391,11 +477,12 @@
 			};
 			name = Release;
 		};
-		B4EB200E2307268600664899 /* Debug */ = {
+		B4C5F0BF22B40E98005C9B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J7LD9SB6Q;
 				INFOPLIST_FILE = ReadingListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -409,11 +496,12 @@
 			};
 			name = Debug;
 		};
-		B4EB200F2307268600664899 /* Release */ = {
+		B4C5F0C022B40E98005C9B08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J7LD9SB6Q;
 				INFOPLIST_FILE = ReadingListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -430,34 +518,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4EB1FE42307268500664899 /* Build configuration list for PBXProject "ReadingList" */ = {
+		B4C5F09522B40E97005C9B08 /* Build configuration list for PBXProject "ReadingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EB20082307268600664899 /* Debug */,
-				B4EB20092307268600664899 /* Release */,
+				B4C5F0B922B40E98005C9B08 /* Debug */,
+				B4C5F0BA22B40E98005C9B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4EB200A2307268600664899 /* Build configuration list for PBXNativeTarget "ReadingList" */ = {
+		B4C5F0BB22B40E98005C9B08 /* Build configuration list for PBXNativeTarget "ReadingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EB200B2307268600664899 /* Debug */,
-				B4EB200C2307268600664899 /* Release */,
+				B4C5F0BC22B40E98005C9B08 /* Debug */,
+				B4C5F0BD22B40E98005C9B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4EB200D2307268600664899 /* Build configuration list for PBXNativeTarget "ReadingListTests" */ = {
+		B4C5F0BE22B40E98005C9B08 /* Build configuration list for PBXNativeTarget "ReadingListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EB200E2307268600664899 /* Debug */,
-				B4EB200F2307268600664899 /* Release */,
+				B4C5F0BF22B40E98005C9B08 /* Debug */,
+				B4C5F0C022B40E98005C9B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B4EB1FE12307268500664899 /* Project object */;
+	rootObject = B4C5F09222B40E97005C9B08 /* Project object */;
 }
